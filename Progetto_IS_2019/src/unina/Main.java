@@ -81,7 +81,7 @@ public class Main {
 			e.printStackTrace();
 		}
 		
-		//tentativo di doppia prenotazione da parte di uno studente (solleva l'eccezione "Gi‡PrenotatoException")
+		//doppia prenotazione da parte di uno studente (solleva l'eccezione "Gi‡PrenotatoException")
 		
 		try {
 			Segreteria.prenotaEsame(s2, primoAppelloAnalisi1);
