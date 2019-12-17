@@ -24,7 +24,7 @@ public class Main {
 			e.printStackTrace();
 		}
 
-		//creazione di un appello (e di una data d'appello)
+		//creazione di un appello 
 		
 		Appello PrimoAppello = new Appello(Analisi1);
 		
@@ -40,6 +40,8 @@ public class Main {
 		String Aula1 = "Aula 1";
 		
 		tipoProva Prova1 = tipoProva.SCRITTA;
+		
+		//creazione di una data d'appello
 		
 		DataAppello primoAppelloAnalisi1 = new DataAppello(primaData, Analisi1, Aula1, Prova1);
 		
