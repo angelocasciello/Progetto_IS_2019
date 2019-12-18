@@ -140,7 +140,7 @@ public class GestioneSegreteria {
 		}
 	}
 
-	//funzione per la consultazione degli studenti prenotati ad una certa data d'appello (che si intende come appello)
+	//funzione per la consultazione degli studenti prenotati ad una data d'appello (che si intende come appello)
 	
 	public void visualizzaStudentiPrenotati(DataAppello data) throws AppelloNonTrovatoException, DataAppelloNonTrovataException {
 	
