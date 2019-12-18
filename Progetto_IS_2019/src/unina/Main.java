@@ -72,7 +72,7 @@ public class Main {
 			e.printStackTrace();
 		}
 		
-		//consultazione degli studenti prenotati ad un appello
+		//consultazione degli studenti prenotati ad un certo appello
 		
 		try {
 			Segreteria.visualizzaStudentiPrenotati(primoAppelloAnalisi1);
