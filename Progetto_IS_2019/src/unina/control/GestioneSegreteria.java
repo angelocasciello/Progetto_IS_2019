@@ -94,7 +94,7 @@ public class GestioneSegreteria {
 	
 	/*funzione per la prenotazione di un esame,
 	 che lo studente, attraverso un'interfaccia (la boundary del diagramma, esempio: SEGREPASS),
-	 chiama ogni qualvolta intende effettuare una prenotazione */
+	 chiamer‡ ogni qualvolta intende effettuare una prenotazione */
 
 	public void prenotaEsame(Studente s, DataAppello data) throws AppelloNonTrovatoException, DataAppelloNonTrovataException, Gi‡PrenotatoException { //lo studente specifica l'esame e la data desiderata per il sostenimento (i dati dello studente vengono passati in automatico effettuando l'accesso all'interfaccia)
 		
