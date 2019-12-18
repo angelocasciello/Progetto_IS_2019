@@ -3,7 +3,9 @@ package unina.entity;
 public class Corso {
 
 		protected String nomeCorso;
-		protected String nomeDocente; //per semplicità "nomeDocente" è solo un attributo di tipo String di "Corso" (l'entity "Docente" avrebbe avuto solo Nome e Cognome, si è scelto pertanto di ovviare la sua creazione)
+		protected String nomeDocente; /*per semplicità "nomeDocente" è solo un attributo di tipo String di "Corso"
+		 								(l'entity "Docente" avrebbe avuto solo Nome e Cognome,
+		 								 si è scelto pertanto di ovviare la sua creazione)*/
 		protected int CFU;
 		
 		public Corso(String nomeCorso) {
